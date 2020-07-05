@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_024_FromVectoToQueue/TicketSeller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_024_FromVectoToQueue/TicketSeller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_024_FromVectoToQueue/TicketSeller3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_024_FromVectoToQueue/TicketSeller4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T01_ConcurrentMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T02_CopyOnWriteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T04_ConcurrentQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T07_DelayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T07_PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T08_SynchronousQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T09_TransferQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_025/T10_TransferQueuePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_23_02/T01_TestHashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_23_02/T02_TestHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_23_02/T03_TestSynchronizedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_23_02/T04_TestConcurrentHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,33 +53,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e4HHv4PRSSa2jHs6McIyP64XY1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mashibing.juc.c_025" />
+      <recent name="com.mashibing.juc.c_024_FromVectoToQueue" />
+      <recent name="com.mashibing.juc.c_23_02" />
       <recent name="com.mashibing.juc.c_021_01_interview" />
       <recent name="com.mashibing.juc.c_020" />
-      <recent name="com.mashibing.juc.c_005" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MyContainer2">
-    <configuration name="MyContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_021_01_interview.MyContainer1" />
+  <component name="RunManager" selected="Application.T10_TransferQueuePrint">
+    <configuration name="T07_DelayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_025.T07_DelayQueue" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_021_01_interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_021_01_interview.MyContainer2" />
+    <configuration name="T07_PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_025.T07_PriorityQueue" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_021_01_interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T08_TestPhase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.T08_TestPhase" />
+    <configuration name="T08_SynchronousQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_025.T08_SynchronousQueue" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.TestCountDownLatch" />
+    <configuration name="T09_TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_025.T09_TransferQueue" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.TestSemaphore" />
+    <configuration name="T10_TransferQueuePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_025.T10_TransferQueuePrint" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyContainer2" />
-        <item itemvalue="Application.MyContainer1" />
-        <item itemvalue="Application.TestSemaphore" />
-        <item itemvalue="Application.T08_TestPhase" />
-        <item itemvalue="Application.TestCountDownLatch" />
+        <item itemvalue="Application.T10_TransferQueuePrint" />
+        <item itemvalue="Application.T09_TransferQueue" />
+        <item itemvalue="Application.T08_SynchronousQueue" />
+        <item itemvalue="Application.T07_PriorityQueue" />
+        <item itemvalue="Application.T07_DelayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -123,5 +166,43 @@
       <updated>1593573860240</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1593914920006">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1593914920006" />
+    <state width="1238" height="182" key="GridCell.Tab.0.bottom" timestamp="1593916598041">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593916598041" />
+    <state width="1238" height="182" key="GridCell.Tab.0.center" timestamp="1593916598040">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593916598040" />
+    <state width="1238" height="182" key="GridCell.Tab.0.left" timestamp="1593916598039">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593916598039" />
+    <state width="1238" height="182" key="GridCell.Tab.0.right" timestamp="1593916598040">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="182" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593916598040" />
+    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1593916450091">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1593916450091" />
   </component>
 </project>
