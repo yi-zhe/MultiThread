@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_00_interview/T06_00_CAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_00_interview/T09_00_BlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T03_Callable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T06_00_Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T07_ForkJoinPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T12_ForkJoinPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T05_00_HelloThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +64,25 @@
       <recent name="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T07_ForkJoinPool">
-    <configuration name="T03_Callable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T03_Callable" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.T05_00_HelloThreadPool$Task">
+    <configuration name="ReentrantLockFairPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.ReentrantLockFairPrint" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_01_ThreadPool.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T06_00_Future" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T06_00_Future" />
+    <configuration name="T05_00_HelloThreadPool$Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T05_00_HelloThreadPool$Task" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T05_00_HelloThreadPool$Task" />
+        <item itemvalue="Application.ReentrantLockFairPrint" />
         <item itemvalue="Application.T07_ForkJoinPool" />
         <item itemvalue="Application.T12_ForkJoinPool" />
         <item itemvalue="Application.T06_01_CompletableFuture" />
-        <item itemvalue="Application.T03_Callable" />
-        <item itemvalue="Application.T06_00_Future" />
       </list>
     </recent_temporary>
   </component>
@@ -165,12 +170,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1593939544708">
