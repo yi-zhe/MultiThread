@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T11_WorkStealingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T12_ForkJoinPool">
+  <component name="RunManager" selected="Application.T13_ParallelStreamAPI">
     <configuration name="ReentrantLockFairPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.ReentrantLockFairPrint" />
       <module name="MultiThread" />
@@ -92,19 +92,6 @@
     </configuration>
     <configuration name="T05_00_HelloThreadPool$Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T05_00_HelloThreadPool$Task" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_01_ThreadPool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T07_ForkJoinPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T07_ForkJoinPool" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
@@ -142,20 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T13_ParallelStreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T13_ParallelStreamAPI" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.c_026_01_ThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ReentrantLockFairPrint" />
       <item itemvalue="Application.T05_00_HelloThreadPool$Task" />
-      <item itemvalue="Application.T07_ForkJoinPool" />
       <item itemvalue="Application.T12_ForkJoinPool" />
       <item itemvalue="Application.T11_WorkStealingPool" />
+      <item itemvalue="Application.T13_ParallelStreamAPI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T13_ParallelStreamAPI" />
         <item itemvalue="Application.T12_ForkJoinPool" />
         <item itemvalue="Application.T11_WorkStealingPool" />
         <item itemvalue="Application.T05_00_HelloThreadPool$Task" />
         <item itemvalue="Application.ReentrantLockFairPrint" />
-        <item itemvalue="Application.T07_ForkJoinPool" />
       </list>
     </recent_temporary>
   </component>
