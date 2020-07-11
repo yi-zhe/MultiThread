@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_029/WriteCombining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T01_CacheLinePadding">
+  <component name="RunManager" selected="Application.WriteCombining">
     <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T01_CacheLinePadding" />
       <module name="MultiThread" />
@@ -99,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T11_WorkStealingPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T11_WorkStealingPool" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_01_ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,20 +131,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteCombining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_029.WriteCombining" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.c_029.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.T12_ForkJoinPool" />
-      <item itemvalue="Application.T11_WorkStealingPool" />
       <item itemvalue="Application.T13_ParallelStreamAPI" />
       <item itemvalue="Application.T01_CacheLinePadding" />
       <item itemvalue="Application.T02_CacheLinePadding" />
+      <item itemvalue="Application.WriteCombining" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteCombining" />
         <item itemvalue="Application.T01_CacheLinePadding" />
         <item itemvalue="Application.T02_CacheLinePadding" />
         <item itemvalue="Application.T13_ParallelStreamAPI" />
         <item itemvalue="Application.T12_ForkJoinPool" />
-        <item itemvalue="Application.T11_WorkStealingPool" />
       </list>
     </recent_temporary>
   </component>
