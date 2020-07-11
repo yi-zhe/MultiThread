@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69302d25-cfe5-4661-8f06-9741e60ff500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,14 +53,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mashibing.juc.c_028_FalseSharing" />
       <recent name="com.mashibing.juc.c_026_00_interview" />
       <recent name="com.mashibing.juc.c_025" />
       <recent name="com.mashibing.juc.c_024_FromVectoToQueue" />
       <recent name="com.mashibing.juc.c_23_02" />
-      <recent name="com.mashibing.juc.c_021_01_interview" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/mashibing/juc/c_026_01_ThreadPool" />
@@ -76,13 +79,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T13_ParallelStreamAPI">
-    <configuration name="ReentrantLockFairPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.ReentrantLockFairPrint" />
+  <component name="RunManager" selected="Application.T01_CacheLinePadding">
+    <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T01_CacheLinePadding" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T05_00_HelloThreadPool$Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_01_ThreadPool.T05_00_HelloThreadPool$Task" />
+    <configuration name="T02_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T02_CacheLinePadding" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_01_ThreadPool.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReentrantLockFairPrint" />
-      <item itemvalue="Application.T05_00_HelloThreadPool$Task" />
       <item itemvalue="Application.T12_ForkJoinPool" />
       <item itemvalue="Application.T11_WorkStealingPool" />
       <item itemvalue="Application.T13_ParallelStreamAPI" />
+      <item itemvalue="Application.T01_CacheLinePadding" />
+      <item itemvalue="Application.T02_CacheLinePadding" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T01_CacheLinePadding" />
+        <item itemvalue="Application.T02_CacheLinePadding" />
         <item itemvalue="Application.T13_ParallelStreamAPI" />
         <item itemvalue="Application.T12_ForkJoinPool" />
         <item itemvalue="Application.T11_WorkStealingPool" />
-        <item itemvalue="Application.T05_00_HelloThreadPool$Task" />
-        <item itemvalue="Application.ReentrantLockFairPrint" />
       </list>
     </recent_temporary>
   </component>
